@@ -1,0 +1,20 @@
+Módulo 1:
+
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.2.22</version>
+</dependency>
+
+org.postgresql.Driver
+
+db:
+  url: "jdbc:postgresql://aws-1-us-east-1.pooler.supabase.com:6543/postgres"
+  user: "postgres.nygagfcstggnkdbyviqc"
+  pass: "******"
+
+
+SELECT * 
+  FROM public."Customers"
+WHERE segment like '%:segment%'
+
