@@ -16,5 +16,5 @@ db:
 
 SELECT * 
   FROM public."Customers"
-WHERE segment like '%:segment%'
+WHERE segment like :segment 
 
