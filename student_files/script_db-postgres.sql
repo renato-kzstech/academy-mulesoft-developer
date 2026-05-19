@@ -1,4 +1,4 @@
-create table public."Customers" (
+create table public."Customers" ( 
   "taxId" text not null,
   name text not null,
   site text null,
